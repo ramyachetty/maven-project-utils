@@ -1,0 +1,18 @@
+#!/bin/bash
+echo "Enter marks"
+read m
+if [ $m -ge 90 ] && [ $m -le 100 ];
+then
+echo "DISTINCTION"
+elif [ $m -ge 75 ] && [ $m -lt 90 ];
+then
+echo "First class"
+elif [ $m -ge 60 ] && [ $m -lt 75 ];
+then
+echo "Second class"
+elif [ $m -gt 35 ] && [ $m -lt 60 ];
+then
+echo "Third class"
+else
+echo "Fail"
+fi

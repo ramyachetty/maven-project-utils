@@ -1,0 +1,21 @@
+#!/bin/bash
+echo "enter the marks:"
+read marks
+if [ $marks -lt 0 ] || [ $marks -gt 100 ]
+then 
+echo "invalid marks"
+elif [ $marks -ge 90 ]
+then
+echo "Distinction"
+elif [ $marks -ge 75 ]
+then 
+echo "First class"
+elif [ $marks -ge 60 ]
+then
+echo "Secong class"
+elif [ $marks -ge 35 ]
+then
+echo "Third class"
+else
+echo "Fail"
+fi

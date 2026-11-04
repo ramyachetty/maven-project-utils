@@ -1,0 +1,12 @@
+#!/bin/bash
+echo " Enter first number :"
+read a
+echo " Enter secong number:"
+read b
+temp=$a
+a=$b
+b=$temp
+echo "After swapping:"
+echo "First number = $a"
+echo "Second number = $b"
+

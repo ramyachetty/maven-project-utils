@@ -1,5 +1,5 @@
 #! /bin/bash
-read -p " enter age : " a
+a=20
 if [ $a -gt 17 ]
 then 
 	echo " you can vote "

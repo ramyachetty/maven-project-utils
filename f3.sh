@@ -26,3 +26,12 @@ then
 else
 	echo "number is not divisible by both numbers"
 fi
+
+#!/bin/bash
+read -p "enter a number:" val
+if [ $val == "" ]
+then
+	echo "variable is empty"
+else
+	echo "variable is non empty"
+fi

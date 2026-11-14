@@ -19,7 +19,7 @@
 read -p "enter a number:" num
 if [ $((num%3)) -eq 0 ]
 then
-	echo "number is divisible by 3"
+	echo "num is divisible by 3"
 elif [ $((num%5)) -eq 0 ]
 then 
 	echo "number is divisible by 5"
